@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gevent = "==1.2.2"
+greenlet = "==0.4.13"
+gunicorn = "==19.7.1"
+wsgiref = "==0.1.2"
+indigo = {ref = "5036d2879b020beafd7bfea1f2183cde99a615c6", git = "https://github.com/OpenUpSA/indigo.git", editable = true}
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
