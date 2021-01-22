@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dokku": {
-      "postdeploy": "python manage.py migrate && python manage.py award_badges"
+      "postdeploy": "python manage.py migrate && python manage.py award_badges",
+      "stack": "heroku-16"
     }
   }
 }
