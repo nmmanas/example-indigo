@@ -2,4 +2,4 @@ gevent==1.2.2
 greenlet==0.4.13
 gunicorn==19.7.1
 wsgiref==0.1.2
--e git+https://github.com/nmmanas/indigo.git@6ce4d46696a7be1715393aabc6b5990d407a3162#egg=indigo
+-e git+https://github.com/nmmanas/indigo.git@f6ae26b6ce80079fd6eec67a8d9f46e4f6f15348#egg=indigo
