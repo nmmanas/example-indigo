@@ -2,5 +2,5 @@ gevent==1.2.2
 greenlet==0.4.13
 gunicorn==19.7.1
 wsgiref==0.1.2
--e git+https://github.com/nmmanas/django-compressor
--e git+https://github.com/nmmanas/indigo.git@4d863174713942ec83a4057abb2262179caded85#egg=indigo
+-e git+https://github.com/nmmanas/django-compressor#egg=django-compressor
+-e git+https://github.com/nmmanas/indigo.git@64bda186f933342d29dd781b75e62117a209ae53#egg=indigo
